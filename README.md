@@ -17,12 +17,13 @@ The SCR V-I characteristic consists of forward blocking, forward conduction and 
 4. PIN DIAGRAM / SYMBOL
 SCR terminals:  Anode (A)   |   Gate (G)   |   Cathode (K)
 5. CIRCUIT CONNECTION
-
-6. 
+<img width="1917" height="975" alt="ED Practical III" src="https://github.com/user-attachments/assets/ea7393dd-b4b1-4b1c-a526-a58b54723b69" /> 
 The main anode-cathode circuit consists of the regulated DC supply, a 1 kΩ series resistor, an ammeter and the SCR. A voltmeter is connected across the SCR to measure VAK. A separate regulated supply is connected through a 1 kΩ resistor to the gate, with a gate ammeter to measure IG.
  
 Reference circuit diagram from the supplied lab record.
 6. CHARACTERISTIC CURVE
+<img width="1917" height="975" alt="ED Practical III" src="https://github.com/user-attachments/assets/bc59ac87-3f9d-40ec-872d-4f9af3a2b841" />
+
 
 
 
@@ -40,9 +41,7 @@ Reference characteristic curve from the supplied lab record.
 7. Reverse the anode supply polarity and vary the reverse voltage in steps. Note the corresponding reverse current values.
 8. Plot the forward and reverse characteristics using the tabulated values and determine the SCR forward resistance from the graph.
 9. Repeat the procedure for another suitable gate current (for example, IG = 1.2 mA) and verify the characteristics.
-8. OBSERVATION / TABULATION
-Gate current, IG: 0.7 mA
-VAK (V)	IAK (mA)
+
 	
 	
 	
@@ -57,12 +56,9 @@ VAK (V)	IAK (mA)
 	
 	
 	
-9. CALCULATIONS / GRAPH
-Forward breakover voltage, VBO = 11.5 V (from the recorded observation).
-Holding voltage, VH ≈ 0.72 V (from the recorded observation).
-Holding current, IH ≈ 12.4 mA (as recorded in the supplied observation/result).
-Forward resistance, RF = ΔVAK / ΔIAK, to be obtained from the slope of the appropriate portion of the plotted characteristic.
-10. RESULT
+
+10. RESULT:
+Thus the phase control characterstics of SCR using LT Spice is simulated and verified
 The V-I characteristics of the SCR have been studied and plotted.
 Forward breakover voltage, VBO = 11.5 V.
 Holding voltage, VH = 0.72 V.
