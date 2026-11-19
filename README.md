@@ -10,28 +10,9 @@ S. No.	Component	Specification	Quantity
 5	Ammeter	0–30 mA	2
 6	Breadboard	—	1
 7	Connecting wires	—	As required
-3. THEORY
-An SCR is a four-layer PNPN semiconductor device having three terminals: anode, cathode and gate. In the normal OFF state, the device restricts current. When the anode-to-cathode voltage exceeds a certain threshold (forward breakover voltage) or a suitable gate current is applied, the SCR turns ON and conducts current.
-Once the SCR is turned ON, it remains in the ON state even after the gate current is removed, provided the anode current remains above the holding current. When the anode current falls below the holding current for an appropriate period, the SCR switches OFF. A positive gate current can therefore be used to trigger the device into conduction.
-The SCR V-I characteristic consists of forward blocking, forward conduction and reverse blocking regions. In the forward blocking region, only a small leakage current flows. After triggering, the SCR enters the forward conduction region, where the current increases substantially while the voltage across the device is low. In reverse bias, only a small reverse leakage current flows until breakdown.
-4. PIN DIAGRAM / SYMBOL
-SCR terminals:  Anode (A)   |   Gate (G)   |   Cathode (K)
-5. CIRCUIT CONNECTION
-<img width="1917" height="975" alt="ED Practical III" src="https://github.com/user-attachments/assets/ea7393dd-b4b1-4b1c-a526-a58b54723b69" /> 
-The main anode-cathode circuit consists of the regulated DC supply, a 1 kΩ series resistor, an ammeter and the SCR. A voltmeter is connected across the SCR to measure VAK. A separate regulated supply is connected through a 1 kΩ resistor to the gate, with a gate ammeter to measure IG.
- 
-Reference circuit diagram from the supplied lab record.
-6. CHARACTERISTIC CURVE
-<img width="1917" height="975" alt="ED Practical III" src="https://github.com/user-attachments/assets/bc59ac87-3f9d-40ec-872d-4f9af3a2b841" />
 
 
-
-
-
-Plot VAK (V) on the X-axis and IAK (mA) on the Y-axis. The curve indicates the forward blocking region, forward breakover point, forward conduction region, holding current and reverse blocking region.
- 
-Reference characteristic curve from the supplied lab record.
-7. PROCEDURE
+5. PROCEDURE
 1. Make the connections as shown in the circuit diagram.
 2. Set R1 and R2 to the mid-position and set the regulated supplies V1 and V2 to minimum.
 3. Set the gate current IG to approximately 0.7 mA. Check that the forward breakover voltage is within the available supply range.
@@ -42,22 +23,13 @@ Reference characteristic curve from the supplied lab record.
 8. Plot the forward and reverse characteristics using the tabulated values and determine the SCR forward resistance from the graph.
 9. Repeat the procedure for another suitable gate current (for example, IG = 1.2 mA) and verify the characteristics.
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+6. CIRCUIT DIAGRAM
+<img width="1777" height="331" alt="image" src="https://github.com/user-attachments/assets/02339f17-0f42-452f-9e4a-f474439ab217" />
 
-10. RESULT:
+7.GRAPH
+<img width="1795" height="412" alt="image" src="https://github.com/user-attachments/assets/f3de7963-82a2-472a-a424-5da32f98b42e" />
+			
+8. RESULT:
 Thus the phase control characterstics of SCR using LT Spice is simulated and verified
 The V-I characteristics of the SCR have been studied and plotted.
 Forward breakover voltage, VBO = 11.5 V.
